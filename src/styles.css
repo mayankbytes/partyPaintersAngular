@@ -25,6 +25,7 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    position: relative;
 }
 
 .clearfix {zoom: 1;}
@@ -214,7 +215,7 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 50%;
+    top: 8%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -648,6 +649,13 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+.wp-chat-section{
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    right: 0;
 }
 
 

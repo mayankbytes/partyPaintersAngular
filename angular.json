@@ -30,7 +30,10 @@
               "src/assets/vendors/queries.css",
               "node_modules/ionicons/dist/css/ionicons.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/scripts/script.js",
+              "src/assets/scripts/jquery.waypoints.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {

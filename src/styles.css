@@ -807,3 +807,13 @@ footer p {
     .contact-form {width: 100%; }
 }
 
+
+/* to over write prime ng CSS */
+
+.ui-panel-images{
+    width: 100%;
+}
+
+.ui-galleria-panel{
+    width: 100%;
+}
